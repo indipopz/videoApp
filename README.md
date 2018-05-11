@@ -8,11 +8,13 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone git clone git@bitbucket.org:nitish_ji/reactreduct.git
+> git clone git@bitbucket.org:nitish_ji/reactreduct.git
 > cd ReduxSimpleStarter
 > npm install
 > npm start
 ```
+OR
+#### Download the zip from https://nitish_ji@bitbucket.org/nitish_ji/reactreduct.git
 
 ```
 > npm install
