@@ -9,7 +9,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone git@bitbucket.org:nitish_ji/reactreduct.git
-> cd ReduxSimpleStarter
+> cd reactreduct
 > npm install
 > npm start
 ```
