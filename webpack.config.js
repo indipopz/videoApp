@@ -1,3 +1,5 @@
+var DiskPlugin = require("webpack-disk-plugin");
+
 module.exports = {
   entry: ['./src/index.js'],
   output: {
@@ -5,6 +7,19 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  plugins: [
+    // Everything else **first**.
+
+    // Write out asset files to disk.
+    new DiskPlugin({
+      output: {
+        path: "build"
+      },
+      files: [
+        { asset: "bundle.js" }
+      ]
+    }),
+  ],
   module: {
     loaders: [
       {
