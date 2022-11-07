@@ -21,7 +21,7 @@
     "jquery": "^2.2.1",
     "jsdom": "^8.1.0",
     "json-loader": "^0.5.7",
-    "mocha": "^2.4.5",
+    "mocha": "^10.1.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
     "write-file-webpack-plugin": "^4.2.0"
